@@ -1,10 +1,10 @@
-
 resource "aws_instance" "demo_ec2" {
-  ami                    = "ami-0557a15b87f6559cf"
-  instance_type          = "t2.micro"
-  key_name               = "demokey"
-  vpc_security_group_ids = ["sg-02e9238f2557e4bef"]
-  subnet_id              = "subnet-061c5aa91120d6221"
+  ami                    = var.ami_id
+  instance_type          = var.inst_type
+  key_name               = var.key_name
+  vpc_security_group_ids = var.sg_ids
+  subnet_id              = var.subnet_id
+  
 
   tags = {
     Name = "terrform-demo-ec2"
