@@ -1,6 +1,6 @@
-ami_id = "ami-0557a15b87f6559cf"
+ami_id = "ami-00fa32593b478ad6e"
 inst_type = "t2.micro"
-key_name = "demokey"
-sg_ids  = ["sg-02bf6af1a3264efb4"]
-subnet_id = "subnet-032fb21e1ee472561"
-region = "us-east-1"
+key_name = "Dell-new-1"
+sg_ids  = ["sg-099e3838b25495fbd"]
+subnet_id = "subnet-04e947d9c5c441dd5"
+region = "ap-south-1"
